@@ -36,7 +36,6 @@ export default {
             })
         })
 
-
         const state = reactive({
             message: '',
             list : [],

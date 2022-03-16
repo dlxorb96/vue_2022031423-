@@ -7,6 +7,10 @@
         <el-button v-if="!logged" @click="handleMenu('join')">join</el-button>
         <el-button v-if="logged" @click="handleMenu('mypage')">mypage</el-button>
         <el-button v-if="logged" @click="handleMenu('logout')">logout</el-button>
+        <el-button  @click="handleMenu('admin')">admin</el-button>
+        <el-button  @click="handleMenu('admin1')">admin1</el-button>
+        <el-button  @click="handleMenu('item')">item</el-button>
+        <el-button  @click="handleMenu('chat')">chat</el-button>
         <hr />
         
         <router-view></router-view>
